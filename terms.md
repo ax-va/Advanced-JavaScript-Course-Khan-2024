@@ -17,3 +17,19 @@ a reference to the outer environment, and also arguments passed to the function.
 
 JavaScript is standardized as ECMAScript by the *Ecma International* standards organization.
 Within Ecma International, the *Technical Committee 39* (TC39) is responsible for developing the JavaScript language.
+
+**stack overflow = an error that is thrown when the call stack gets filled up to its limit and can no longer hold more entries**
+
+An example of the *stack overflow* error would be an error with infinite recursion of a function:
+
+```javascript
+function foo() {
+    foo();
+}
+```
+
+The call stack has a fixed size and can contain a limited number of entries.
+
+However, the ECMAScript specification does not define whether JavaScript primitives and objects 
+are stored on the stack or the heap. It depends on the JavaScript engine implementation.
+A simplified rule of *primitives go on the stack and objects on the heap* is a misconception.
