@@ -32,4 +32,4 @@ The call stack has a fixed size and can contain a limited number of entries.
 
 However, the ECMAScript specification does not define whether JavaScript primitives and objects 
 are stored on the stack or the heap. It depends on the JavaScript engine implementation.
-A simplified rule of *primitives go on the stack and objects on the heap* is a misconception.
+The rule of *"primitives go on the stack and objects on the heap"* is a misconception.
