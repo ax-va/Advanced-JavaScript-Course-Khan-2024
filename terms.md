@@ -20,7 +20,9 @@ Within Ecma International, the *Technical Committee 39* (TC39) is responsible fo
 
 **stack overflow = an error that is thrown when the stack gets filled up to its limit and can no longer hold more entries**
 
-1. An example of the *stack overflow* in the *call stack* error would be an error with infinite recursion of a function:
+1. *Call stack*
+
+An example of the *stack overflow* in the *call stack* error would be an error with infinite recursion of a function:
 
 ```javascript
 function foo() {
@@ -30,6 +32,8 @@ function foo() {
 
 Because the call stack has a fixed size and can contain a limited number of entries.
 
-2. The ECMAScript specification does not define whether JavaScript primitives and objects 
+2. *Stack and heap*
+
+The ECMAScript specification does not define whether JavaScript primitives and objects 
 are stored on the stack or the heap. It depends on the JavaScript engine implementation.
 The rule of *"primitives go on the stack and objects on the heap"* is a misconception.
