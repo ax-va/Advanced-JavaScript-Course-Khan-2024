@@ -34,6 +34,6 @@ Because the call stack has a fixed size and can contain a limited number of entr
 
 2. *Stack and heap*
 
-The ECMAScript specification does not define whether JavaScript primitives and objects 
-are stored on the stack or the heap. It depends on the JavaScript engine implementation.
+The ECMAScript specification does not define whether JavaScript *primitives* and *objects* 
+are stored on the *stack* or the *heap*. It depends on the JavaScript engine implementation.
 The rule of *"primitives go on the stack and objects on the heap"* is a misconception.
