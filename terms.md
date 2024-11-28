@@ -1,4 +1,4 @@
-**AST = Abstract Syntax Tree =  a set of objects that represent the structure of the source code**
+**AST (Abstract Syntax Tree) =  a set of objects that represent the structure of the source code**
 
 **Global execution context**
 
@@ -18,9 +18,9 @@ a reference to the outer environment, and also arguments passed to the function.
 JavaScript is standardized as ECMAScript by the *Ecma International* standards organization.
 Within Ecma International, the *Technical Committee 39* (TC39) is responsible for developing the JavaScript language.
 
-**stack overflow = an error that is thrown when the call stack gets filled up to its limit and can no longer hold more entries**
+**stack overflow = an error that is thrown when the stack gets filled up to its limit and can no longer hold more entries**
 
-An example of the *stack overflow* error would be an error with infinite recursion of a function:
+1. An example of the *stack overflow* in the *call stack* error would be an error with infinite recursion of a function:
 
 ```javascript
 function foo() {
@@ -28,8 +28,8 @@ function foo() {
 }
 ```
 
-The call stack has a fixed size and can contain a limited number of entries.
+Because the call stack has a fixed size and can contain a limited number of entries.
 
-However, the ECMAScript specification does not define whether JavaScript primitives and objects 
+2. The ECMAScript specification does not define whether JavaScript primitives and objects 
 are stored on the stack or the heap. It depends on the JavaScript engine implementation.
 The rule of *"primitives go on the stack and objects on the heap"* is a misconception.
