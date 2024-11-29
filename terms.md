@@ -13,12 +13,14 @@ The function execution context contains variables and functions that are declare
 the value of `this` inside the function for the current function call, 
 a reference to the outer environment, and also arguments passed to the function.
 
+**Hoisting = variables and functions can be accessed *before* their actual declaration**
+
 **ECMAScript**
 
 JavaScript is standardized as ECMAScript by the *Ecma International* standards organization.
 Within Ecma International, the *Technical Committee 39* (TC39) is responsible for developing the JavaScript language.
 
-**stack overflow = an error that is thrown when the stack gets filled up to its limit and can no longer hold more entries**
+**Stack overflow = an error that is thrown when the stack gets filled up to its limit and can no longer hold more entries**
 
 1. *Call stack*
 
