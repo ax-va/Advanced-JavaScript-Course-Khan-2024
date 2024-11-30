@@ -4,6 +4,8 @@ Hoisting = variables and functions can be accessed *before* their actual declara
 
 // The access to undeclared variables is possible
 // because of the parsing step before the code is executed.
+// Before any scope is executed, all the variables declared
+// in that scope are registered for that scope.
 console.log(result);
 // undefined
 var result = 5 + 10;
