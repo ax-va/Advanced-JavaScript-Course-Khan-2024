@@ -16,4 +16,3 @@ function print(obj) {
     console.log(obj;
 }
 // SyntaxError: missing ) after argument list
-
